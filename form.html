@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.w3schools.com/action_page.php" target="_blank" 
+    method="post " autocomplete="off">
+        <!-- điền link để gửi lên server trong phần action, do backend cung cấp
+        bên backend sẽ trả về một thông báo gì là do backend 
+        Phương thức get thì khi load lại sẽ không bị mất, còn post thì load lại sẽ mất do 
+        không thay đổi trong link
+    -->
+        <label for="fullname">Họ tên:</label>
+        <br>
+        <input type="text" id="fullname" name="full name">
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email">
+        <br>
+        <input type="submit" value="Gửi">
+    </form>
+</body>
+</html>
